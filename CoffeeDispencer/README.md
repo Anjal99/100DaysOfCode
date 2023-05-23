@@ -1,10 +1,26 @@
-## A sample Non-GUI Coffee Dispencer 
+## Object Oriented Coffee Machine Concept
 
-This code contains 2 separate files -
-1) coffee.py -> this stores the menu, coffee resources, and ingredients required to make the coffee
-2) main.py -> this is where the housing of our logic is set.
+Under the OOP Folder, the coffee machine program is broken down into multiple class files which demostrate a working Object-Class concept for a coffee dispencing program. 
 
-This program prompts the user to chose a drink from the available menu options. Once the drink is
-chosen, the user is prompted to insert the payment in American coins. Then the payment is verified
-and the drink is dispensed if the amount meets the requirements. The machine is also capable of
-dispencing change as well as running through the inventory for a report on the available resources
+### Program Requirements
+1) Prompt the user to make a selection from the drink menu
+2) The coffee machine has 2 more inputs it can take:
+    'off' to turn the machine of for maintenance
+    'report' to chekc the status of the machine's resources and revenue generated
+3) Check for sufficient resources and take in the payment method. 
+4) Validate the transaction
+5) Make and dispense user's beverage
+
+### Code Walkthrough
+
+### Main.py
+Here is where the program 
+
+### coffee_maker.py
+Within this class, we attempt to print the report, check for resources with the machine as well as make the coffee for the user.
+
+### menu.py
+This class models the menu for our coffee machine. Here, we walk through the menu item to search for the coffee choice that the user has made.
+
+### money_machine.py
+Here, we validate the user's payment method, process the transaction and append the profits to our report. Based on the validation, a trigger is created to dispence coffee or return/decline the payment option.

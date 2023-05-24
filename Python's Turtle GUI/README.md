@@ -9,4 +9,6 @@ This is my attempt to develop a few old classics using Turtle Graphics and Objec
 ### Snake Game
 A representation of what the Nokia keypad phones debut in the early 90's with a pixeled snake and a piece of food. The goal was to move the snake and consume food which would increase the size of the snake without hitting the boundaries or the snake itself.
 
+![](/Users/anjalparikh/Desktop/#100DaysOfCode/snake_game.png)
+
 
